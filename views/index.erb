@@ -1,4 +1,4 @@
-<h1>Submitted Form values (via <%= request %>) </h1>
+<h1>Submitted Form values (via <%= request.request_method %>) </h1>
 <ul>
 <% params.each do |k,v| %>
   <li><%= k %>: <%= v %></li>
