@@ -1,0 +1,6 @@
+<h1>Submitted Form values (via <%= request %>) </h1>
+<ul>
+<% params.each do |k,v| %>
+  <li><%= k %>: <%= v %></li>
+<% end %>
+</ul>
