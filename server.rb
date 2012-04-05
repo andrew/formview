@@ -1,9 +1,9 @@
 require 'sinatra'
 
-get '/form' do
+get '/' do
   erb :index
 end
 
-post '/form' do
-  erb :index
+get '/results' do
+  erb :results
 end
